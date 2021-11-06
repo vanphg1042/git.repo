@@ -1,0 +1,24 @@
+<strong></strong>: tag in đậm
+cú pháp: <tagname></tagname>
+thẻ mở chứa các thuộc tính: 
+<tagname pro1="value1" pro2="value2"></tagname>
+vd1: viết mã html hiển thị dòng chữ "Hello World". Trong đó, in đậm chữ World
+#Element html: là danh sách tag html (ví chúng là các đối tượng)
+    -=Thường 1 tag html có (opentag) và (closetag)
+    vd: <div></div>
+    -=Khuyết (closetag) loại này gọi là (quick closetag)
+    @cú pháp: <tagname/>
+    vd: <input />, <link />, <meta />
+    --Tag lồng trong tag: thẻ con nằm trong thẻ chứa
+    vd: 
+        <div>
+            <input type="text" classname="Class Name" value=""/>
+        </div>
+    note!: ko nên bỏ qua <closetag>, nếu có thì giao diện sẽ dể bị vỡ, vì vậy nên sử dụng kết hợp tagintag đối vs tag khuyết <closetag>
+#Attribute html: là thuộc tính để mô tả cho đối tượng (là tag html)
+    --vd: tag <input /> có các thuộc tính: name, type, id, value
+    code:<input type="text" name="input-name" id="inputid" value""/>
+#Dấu '' vs "": dấu bao chứa ko thể tái sử dụng bên trong bao chứa
+    --vd: name="name"họ"": false
+          name="name 'họ'": true
+#Attribute mở rộng: là attribute ko có sẳn trong tag html nhất định, nhưng vẫn có thể định nghĩa nhưng ko dùng được. Cần kết hợp vs Javascript để xử lý
