@@ -1,0 +1,25 @@
+#heading: (tiêu đề-phân cấp nội dung chính-phụ), có 6 tag heading từ <h1>...<h6> (size text nhỏ dần từ 1...6), cách dùng giống vs mục lục
+#list: (tạo danh sách liệt kê), phụ trợ cho tạo tiêu đề
+chứa cặp thẻ: (khai báo danh sách items) và (khai báo cho từng items)
+vd1: tạo danh sách ko theo thứ tự (dánh dâu bằng kí tự đặt biệt)
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+vd2: tạo danh sách theo thứ tự (đánh dấu bằng số)
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ol>
+note: Muốn tạo sup-items (tạo items con của items mẹ) thì tạo tag lồng tag
+    <ul>
+        <li>item1</li>
+            <ul>
+                <li>item1.1</li>
+                <li>item1.2</li>
+            </ul>
+        <li>item2</li>
+        <li>item3</li>    
+    </ul>
