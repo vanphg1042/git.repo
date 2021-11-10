@@ -17,3 +17,4 @@ note2: href="#valueID"di chuyển đến vị trí khác trong trang web
     vd:
         <div id="moveto"></div>
         <a href="moveto">Đi tới div</a>
+note4: có 4 trạng thái của link
