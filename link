@@ -1,0 +1,19 @@
+#tag <a>: tạo liên kết link
+    --Hai loại link: 
+        +internal link (link nội bộ): liên kết vs các trang nằm trong nội bộ của domain
+        +external link (link out ra ngoài): trỏ tới những website không phải domain hiện tại
+    --Cú pháp: <a href="link">NameLink</a>
+#attribute: 
+    --href: lấy link
+    --title: mô ta ý nghĩa của link khi rê chuột vào
+    --rel:
+    --target: xử lí tab
+        +_blank: chuyển link đến tab mới
+        +_self: chuyển link trên tab hiện tại (value mặc định)
+        +_parent: chuyển link tới tab mở tab hiện tại (tag cha của tab hiện tại)
+        +_top: nhảy tới tab hiện tại và thường dùng trong iframe khi muốn thoát khỏi iframe và chạy tới trang gốc
+note1: href="#" khi ko muốn tag <a> trỏ đến liên kết
+note2: href="#valueID"di chuyển đến vị trí khác trong trang web
+    vd:
+        <div id="moveto"></div>
+        <a href="moveto">Đi tới div</a>
