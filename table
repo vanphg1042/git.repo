@@ -1,0 +1,10 @@
+#tag table: 
+    @Attribute:
+        --border="value": value={0,1,2,...}(tạo đường viền cho table)
+        --cellspacing="value":------------- (khoảng cách giữa các ô so với border)
+        --cellpadding="value":------------- (khoảng cách của table so với trong mànghinh)
+        --colspan="value":----------------- (giá trị tương ứng số ô đc trộn)
+        --rowspan="value":----------------- (giá trị là sô ô cần gộp)
+    note: colspan vs rowspan dùng trong tag <td>
+    @add column dùng tag <td>
+    @--- row ----------- <tr>
