@@ -1,0 +1,14 @@
+#Image: tag <img/>
+#Cú pháp: <img srs="link"/>
+#Attribute:
+    --src: value là link image or image
+    --alt: value thường là phần mô tả cho image khi ko được hiển thị trên trang web
+    --width: px
+    --height: value là px
+#Một số cách sử dụng thẻ img
+    --kết hợp vs thể a để tạo link hình
+        vd:
+            <a href="https://www.google.com/">
+                <image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/> title="Google.com"
+            </a>
+    --kết hợp với thẻ map để gán một link vào một vị trí nhỏ trong ảnh
