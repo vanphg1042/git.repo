@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var res;
+        let feet, meter;
+        function feetToMeter(feet){
+            res = 0.305 * feet;
+            return Number.parseFloat(res).toFixed(3);
+        }
+        function meterToFeet(meter){
+            res = 3.279 * meter; 
+            return Number.parseFloat(res).toFixed(3);
+        }
+        meter=feetToMeter(1.0);
+        feet=meterToFeet(25.0);
+        document.writeln("Meter = "+meter +"<br>");
+        document.writeln("Feet = "+feet+"<br>");
+
+    </script>
+</body>
+</html>
