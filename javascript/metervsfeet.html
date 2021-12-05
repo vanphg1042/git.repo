@@ -8,8 +8,9 @@
 </head>
 <body>
     <script>
-        var res;
-        let feet, meter;
+        //var res;
+        //let feet = prompt("Nhập số đo feet cần chuyển đổi?")
+        //let meter = prompt("Nhập số đo meter cần chuyển đổi?")
         function feetToMeter(feet){
             res = 0.305 * feet;
             return Number.parseFloat(res).toFixed(3);
@@ -18,10 +19,14 @@
             res = 3.279 * meter; 
             return Number.parseFloat(res).toFixed(3);
         }
-        meter=feetToMeter(1.0);
-        feet=meterToFeet(25.0);
-        document.writeln("Meter = "+meter +"<br>");
-        document.writeln("Feet = "+feet+"<br>");
+        document.write("check meter to feet: <br> "+"1.0 = "+meterToFeet(1)+"<br>"+"2.0 = "+meterToFeet(2)+"<br>"+"9.0 = "+meterToFeet(9)+"<br>"+"10.0 = "+meterToFeet(10)+"<br>");
+
+        document.write("check feet to meter: <br> "+"20.0 = "+feetToMeter(20)+"<br>"+"25.0 = "+feetToMeter(25)+"<br>"+"60.0 = "+feetToMeter(60)+"<br>"+"65.0 = "+feetToMeter(65));
+        
+        
+
+        //document.writeln("Meter = "+meter +"<br>");
+        //document.writeln("Feet = "+feet+"<br>");
 
     </script>
 </body>
